@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.ruqyahbd.masnun" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>মাসনুন আমল</name>
+    <description>
+        যাদু, জ্বিন এবং অন্যান্য ক্ষতি থেকে বাচার উপায়
+    </description>
+    <author email="ruqyahbdorg@gmail.com" href="https://ruqyahbd.org/">
+        Ruqyah Support BD Team | Abdullah Almahmud
+    </author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="16" />
+    <preference name="android-targetSdkVersion" value="21" />
+    <icon src="icon.png" />
+    <plugin name="cordova-plugin-whitelist"/>
+    <allow-intent href="http://*/*"/>
+    <allow-intent href="https://*/*"/>
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+</widget>
