@@ -10,7 +10,7 @@
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="16" />
-    <preference name="android-targetSdkVersion" value="21" />
+    <preference name="android-targetSdkVersion" value="26" />
     <icon src="icon.png" />
     <plugin name="cordova-plugin-whitelist"/>
     <allow-intent href="http://*/*"/>
