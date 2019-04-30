@@ -134,6 +134,10 @@ audio
 {
     margin-left: -15px;
 }
+.ltr-direction
+{
+    direction: ltr !important; 
+}
 /* fallback */
 @font-face {
     font-family: 'Material Icons';
